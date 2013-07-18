@@ -1,6 +1,6 @@
 QT       += core network sql
 QT       -= gui
-TARGET    = QtCGI
+TARGET    = helloWorld.qgi
 CONFIG   += console
 CONFIG   -= app_bundle
 TEMPLATE  = app
