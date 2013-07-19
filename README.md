@@ -10,3 +10,7 @@ Installation
 3.  Execute "qmake QtCGI.pro", if you are running Qt5 and Qt4, execute "qmake-qt4 QtCGI.pro".
 4.  Execute "make".
 5.  Navigate to http://yourdomain.tld/cgi-bin/helloWorld.qgi
+
+Updates
+=======
+2013-07-19 17:31 - Fixed support for reading and processing POST data
