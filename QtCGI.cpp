@@ -220,7 +220,7 @@ QtCGI* QtCGI::ProcessPost()
 		// Make sure we don't have an empty POST set
 		if (!QString::fromStdString(strPostData).isEmpty()) {
 			// Set the POST data into the instance
-			this->DecodeQuery(QString().fromStdString(strPostData));
+			this->mPostParameters = this->DecodeQuery(QString().fromStdString(strPostData));
 		}
 	}
 	// Return the instance
